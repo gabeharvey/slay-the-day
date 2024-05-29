@@ -101,6 +101,19 @@ const MyMonth = () => {
       <Text color="beige" fontSize="20px" mt={4} fontFamily="Nunito">
         Current Time (Central Time): {currentTime}
       </Text>
+
+      {/* Three Boxes with Different Colors */}
+      <Flex justify="space-around" width="80%" mt={4}>
+        <Box bg="lightcoral" width="30%" p={4} borderRadius="md" textAlign="center">
+          <Text color="beige" fontFamily="Comic Sans MS" fontWeight='bold'>All in the Past!</Text>
+        </Box>
+        <Box bg="skyblue" width="30%" p={4} borderRadius="md" textAlign="center">
+          <Text color="beige" fontFamily="Comic Sans MS" fontWeight='bold'>Slay The Day!</Text>
+        </Box>
+        <Box bg="white" width="30%" p={4} borderRadius="md" textAlign="center">
+          <Text color="black" fontFamily="Comic Sans MS" fontWeight='bold'>Future Slay!</Text>
+        </Box>
+      </Flex>
     </Flex>
   );
 };

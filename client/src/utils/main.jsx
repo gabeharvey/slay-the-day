@@ -3,7 +3,7 @@ import App from './App.jsx'
 import './index.css'
 import { ChakraProvider } from "@chakra-ui/react";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import MyDay from '../components/MyDay.jsx';
+import MyMonth from '../components/MyMonth.jsx';
 
 const router = createBrowserRouter([
   { path: '/',
@@ -11,7 +11,7 @@ const router = createBrowserRouter([
     children: [
       {
         index: true,
-        element: <MyDay />
+        element: <MyMonth />
       }
     ]
   }

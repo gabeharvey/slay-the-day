@@ -99,11 +99,11 @@ const MyMonth = () => {
       
       {/* Current Time in Central Time */}
       <Text color="beige" fontSize="20px" mt={4} fontFamily="Nunito">
-        Current Time (Central Time): {currentTime}
+        Current Time (CST): {currentTime}
       </Text>
 
       {/* Three Boxes with Different Colors */}
-      <Flex justify="space-around" width="80%" mt={4}>
+      {/* <Flex justify="space-around" width="80%" mt={4}>
         <Box bg="lightcoral" width="30%" p={4} borderRadius="md" textAlign="center">
           <Text color="beige" fontFamily="Comic Sans MS" fontWeight='bold'>All in the Past!</Text>
         </Box>
@@ -113,7 +113,11 @@ const MyMonth = () => {
         <Box bg="white" width="30%" p={4} borderRadius="md" textAlign="center">
           <Text color="black" fontFamily="Comic Sans MS" fontWeight='bold'>Future Slay!</Text>
         </Box>
-      </Flex>
+      </Flex> */}
+
+      <Text color="beige" fontSize="20px" mt={4} fontFamily="Nunito">
+        Each Day is a Blessing!
+      </Text>
     </Flex>
   );
 };
